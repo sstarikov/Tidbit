@@ -193,7 +193,7 @@ if (isset($opts['h'])) {
     die($helpStr);
 }
 
-ini_set('memory_limit', '8096M');
+ini_set('memory_limit', '-1');
 set_time_limit(0);
 
 define('TIDBIT_DIR', __DIR__);
